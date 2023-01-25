@@ -4,47 +4,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>HTML5 Семантичні елементи</h1>
-        <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>HTML5 Семантичні елементи</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#browser-support">Підтримка браузерів</a>
+            </li>
+            <li>
+                <a href="#new-semantic-elements">Нові семантичні елементи в HTML5</a>
+            </li>
+            <li>
+                <a href="#section-element">HTML5 &lt;section&gt; елемент</a>
+            </li>
+            <li>
+                <a href="#article-element">HTML5 &lt;article&gt; елемент</a>
+            </li>
+            <li>
+                <a href="#header-element">HTML5 &lt;header&gt; елемент</a>
+            </li>
+            <li>
+                <a href="#footer-element">HTML5 &lt;footer&gt; елемент</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-    <main>
-        <article>
-            <p>
-                Семантичний елемент чітко описує його значення як для браузера, так і для розробника.
-            </p>
-            <p>
-                Приклади не семантичних елементів: < div> і < span>- нічого не говорить про його вміст.
-            </p>
-            <p>
-                Приклади семантичних елементів: < form>, < table>і < article>- чітко визначає його зміст.
-            </p>
-        </article>
+<main>
+    <article>
+        <p>
+            Семантичний елемент чітко описує його значення як для браузера, так і для розробника.
+        </p>
+        <p>
+            Приклади не семантичних елементів: &lt;div&gt; і &lt;span&gt;- нічого не говорить про його вміст.
+        </p>
+        <p>
+            Приклади семантичних елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt; - чітко визначає його зміст.
+        </p>
+    </article>
 
-        <article>
-            <h2>Підтримка браузерів</h2>
-            <span>
-                <img src="" alt="Google Chrome">
-                <img src="" alt="Microsoft Edge">
-                <img src="" alt="Firefox">
-                <img src="" alt="Internet Explorer">
-                <img src="" alt="Opera">
-            </span>
-        </article>
-    </main>
+    <article id="browser-support">
+        <h2>Підтримка браузерів</h2>
+        <span>
+            <img class="browser-logo" src="assets/images/google_logo.svg" alt="Google Chrome">
+            <img class="browser-logo" src="assets/images/microsoft_edge_logo.svg" alt="Microsoft Edge">
+            <img class="browser-logo" src="assets/images/Firefox_logo.svg" alt="Firefox">
+            <img class="browser-logo" src="assets/images/Safari_logo.svg" alt="Safari">
+            <img class="browser-logo" src="assets/images/opera-logo.svg" alt="Opera">
+        </span>
+        <p>
+            Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.
+        </p>
+        <p>
+            Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".
+        </p>
+        <p>
+            Прочитайте про це в <span><a
+                href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#">підтримці браузера HTML5</a></span>.
+        </p>
+    </article>
+
+    <article id="new-semantic-elements">
+        <h2>Нові семантичні елементи в HTML5</h2>
+        <p>
+            HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:
+        </p>
+        <ul>
+            <li>&lt;section&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;header&gt;</li>
+            <li>&lt;footer&gt;</li>
+        </ul>
+    </article>
+
+    <article id="section-element">
+        <h2>HTML5 &lt;section&gt; елемент</h2>
+        <p>
+            Елемент &lt;section&gt; визначає розділ в документі.
+        </p>
+
+        <p>
+            Згідно з документацією в3к'с HTML5: "розділ представляє собою
+            тематичну угруповання контенту, зазвичай з заголовком".
+        </p>
+        <p>
+            Домашня сторінка зазвичай може бути розділена на розділи для
+            ознайомлення, змісту і контактної інформації.
+        </p>
+        <h3>Приклад</h3>
+        <div class="example">
+            <code>
+                &lt;section&gt;<br>
+                &nbsp&lt;h1&gt;WWF&lt;/h1&gt;<br>
+                &nbsp&lt;p&gt;The World Wide Fund for Nature (WWF) is...&lt;/p&gt;<br>
+                &lt;/section&gt;
+            </code>
+        </div>
+    </article>
+
+    <article id="article-element">
+        <h2>HTML5 &lt;article&gt; елемент</h2>
+        <p>
+            Елемент &lt;article&gt; визначає незалежний, автономний вміст.
+        </p>
+
+        <p>
+            Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+            читати його незалежно від іншої частини веб-сайту
+        </p>
+        <p>
+            Приклади того, де можна використовувати елемент &lt;article&gt;:
+        </p>
+        <ul>
+            <li>Повідомлення на форумі</li>
+            <li>блозі</li>
+            <li>Газетна стаття</li>
+        </ul>
+        <h3>Приклад</h3>
+        <div class="example">
+            <code>
+                &lt;article&gt;<br>
+                &nbsp&lt;h1&gt;What Does WWF Do?&lt;/h1&gt;<br>
+                &nbsp&lt;p&gt;WWF's mission is to stop the degradation of our planet's natural enviroment, and build a
+                future in which live in harmony with nature.&lt;/p&gt;<br>
+                &lt;/article&gt;
+            </code>
+        </div>
+    </article>
+
+    <article id="header-element">
+        <h2>HTML5 &lt;header&gt; елемент</h2>
+        <p>
+            Елемент &lt;header&gt; задає заголовок для документа або розділу.
+        </p>
+
+        <p>
+            Елемент &lt;header&gt; повинен використовуватися в якості контейнера для
+            вступного змісту.
+        </p>
+        <p>
+            В одному документі може бути кілька елементів &lt;header&gt;
+        </p>
+        <p>
+            У наступному прикладі визначається заголовок для статті:
+        </p>
+        <h3>Приклад</h3>
+        <div class="example">
+            <code>
+                &lt;article&gt;<br>
+                &nbsp&lt;header&gt;<br>
+                &nbsp&nbsp&lt;h1&gt;What Does WWF Do?&lt;/h1&gt;<br>
+                &nbsp&nbsp&lt;p&gt;WWF's mission:&lt;/p&gt;<br>
+                &nbsp&lt;/header&gt;<br>
+                &nbsp&lt;p&gt;WWF's mission is to stop the degradation of our planet's natural environment,
+                and build a future in which humans live in harmony with nature.&lt;/p&gt;<br>
+                &lt;/article&gt;
+            </code>
+        </div>
+    </article>
+
+    <article id="footer-element">
+        <h2>HTML5 &lt;footer&gt; елемент</h2>
+        <p>
+            Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.
+        </p>
+
+        <p>
+            Нижній колонтитул зазвичай містить автора документа, інформацію про
+            авторське право, посилання на умови використання, контактні дані і т.д.
+        </p>
+        <p>
+            В одному документі може бути кілька елементів &lt;footer&gt;.
+        </p>
+        <h3>Приклад</h3>
+        <div class="example">
+            <code>
+                &lt;footer&gt;<br>
+                &nbsp&lt;p&gt;Author: Hege Refsnes&lt;/p&gt;<br>
+                &nbsp&lt;p&gt;&lt;a href="mailto:hege@example.com"&gt;hege@example.com&lt;/a&gt;&lt;/p&gt;<br>
+
+                &lt;/footer&gt;
+            </code>
+        </div>
+    </article>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player"></iframe>
+
+    <iframe class="resume" src="../HW2/index_ua.html" title="my resume from last homework"></iframe>
+
+
+</main>
 
 </body>
 </html>
