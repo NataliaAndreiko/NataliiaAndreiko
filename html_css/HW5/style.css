@@ -12,7 +12,7 @@ form{
     flex-direction: column;
     /* align-items: flex-start; */
     justify-content: space-between;
-    padding: 0 3em;
+    padding: 0 2em;
 }
 
 
@@ -31,20 +31,29 @@ select{
     padding: 0.6em;
 }
 
+.adress{
+    display: flex;
+    flex-direction: column;
+}
+
 textarea{
+    margin: 1em 0;
     background-color: rgb(253, 185, 57) ;
     border-radius: 5px;
     border: 0;
     padding: 0.6em;
-    width: 288px;
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 150px;
 }
+
 form label{
     margin-bottom: 1em;
 }
 
 .register{
     background-color: rgb(255, 166, 0);
-    margin: 7em 15em;
+    margin: 0em 15em;
     padding: 1em;
     width: 25em;
     border-radius: 15px;
@@ -52,5 +61,18 @@ form label{
     flex-direction: column;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
+}
+
+
+.select{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: space-between;
+}
+
+
+.submit{
+    padding: 1em;
 }
 

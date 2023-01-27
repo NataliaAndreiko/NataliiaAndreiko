@@ -21,11 +21,11 @@
                 <input type="radio" name="animal" value="male" checked> Чоловік
                 <input type="radio" name="animal" value="female" checked> Жінка
             </label>
-            <label>
+            <label class="age">
                 Вік
                 <input type="number" id="age" name="age" min="1" max="100" required>
             </label>
-            <label>
+            <label class="select">
                 Виберіть курс
                 <select required>
                     <option value="front-end">Front-End</option>
@@ -35,7 +35,7 @@
                 </select>
             </label>
     
-            <label>
+            <label class="adress">
                 Повна адреса
                 <textarea placeholder="Країна, регіон, місто/селище, вулиця" name="adress" rows="4" required></textarea>
             </label>
@@ -43,7 +43,7 @@
                 <input tabindex="3" id="validation" name="validation" type="checkbox" required>
                 Я погоджуюсь з обробкою персональних данних
             </label>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit">
         </form>
     </div>
 </body>
