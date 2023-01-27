@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="register">
+        <h1>Реєстрація</h1>
+        <form>
+            <input type="text" name="full-name" placeholder="Повне ім'я" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="email" placeholder="Пароль" required>
+            <input type="password" name="email" placeholder="Пароль ще раз" required>
+            <label for="sex" required>
+                Стать
+                <input type="radio" name="animal" value="male" checked> Чоловік
+                <input type="radio" name="animal" value="female" checked> Жінка
+            </label>
+            <label>
+                Вік
+                <input type="number" id="age" name="age" min="1" max="100" required>
+            </label>
+            <label>
+                Виберіть курс
+                <select required>
+                    <option value="front-end">Front-End</option>
+                    <option value="back-end">Back-end</option>
+                    <option value="project-management">Project Management</option>
+                    <option value="qa-manual">QA Manual</option>
+                </select>
+            </label>
+    
+            <label>
+                Повна адреса
+                <textarea placeholder="Країна, регіон, місто/селище, вулиця" name="adress" rows="4" required></textarea>
+            </label>
+            <label class="reg-settings">
+                <input tabindex="3" id="validation" name="validation" type="checkbox" required>
+                Я погоджуюсь з обробкою персональних данних
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
