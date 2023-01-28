@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +9,19 @@
 
 </head>
 <body>
-    <div class="register">
+    <section class="register">
         <h1>Реєстрація</h1>
-        <form>
+        <form method="post">
             <input type="text" name="full-name" placeholder="Повне ім'я" required>
             <input type="email" name="email" placeholder="Email" required>
             
             <input type="password" name="email" placeholder="Пароль" required>
             <input type="password" name="email" placeholder="Пароль ще раз" required>
             
-            <label for="sex" required>
+            <label required>
                 Стать
-                <input type="radio" name="animal" value="male" checked> Чоловік
-                <input type="radio" name="animal" value="female" checked> Жінка
+                <input type="radio" name="gender" value="male" checked> Чоловік
+                <input type="radio" name="gender" value="female" checked> Жінка
             </label>
 
             <label class="age">
@@ -51,6 +51,6 @@
 
             <button type="submit">Submit</button>
         </form>
-    </div>
+    </section>
 </body>
 </html>

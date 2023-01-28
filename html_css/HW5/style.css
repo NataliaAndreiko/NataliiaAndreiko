@@ -69,7 +69,6 @@ form label{
 .select{
     display: flex;
     flex-direction: row;
-    /* align-content: center; */
     justify-content: space-between;
 }
 

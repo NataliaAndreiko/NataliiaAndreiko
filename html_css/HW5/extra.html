@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra part</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Ім'я та прізвище</legend>
+            <input type="text" name="fname" placeholder="first name">
+            <input type="text" name="lname" placeholder="last name">
+        </fieldset>
+
+        <fieldset>
+            <legend>Email та пароль</legend>
+            <input type="email" name="email" placeholder="email" required>
+            <input type="password" name="password" placeholder="password" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ваш вік</legend>
+            <input type="number" name="age" min="6" max="120" required>
+            <label>
+                Дата народження 
+                <input type="date" name="b-date">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Номер телефону</legend>
+            <input type="tel" name="tel" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Виберіть фото на аватарку</legend>
+            <input type="file" name="profile-pick">
+        </fieldset>
+
+        <fieldset>
+            <legend>Виберіть час для нагадування про день народження друга!</legend>
+            <input type="datetime-local" name="friend-bday-time">
+        </fieldset>
+
+        <fieldset>
+            <legend>Виберіть час будильнику</legend>
+            <input type="time" name="alarm-clock-time">
+        </fieldset>
+
+        <fieldset>
+            <legend>Стать</legend>
+            <label required>
+                <input type="radio" name="gender" value="male" checked> Чоловік
+                <input type="radio" name="gender" value="female" checked> Жінка
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Виберіть курс</legend>
+            <select required>
+                <option value="front-end">Front-End</option>
+                <option value="back-end">Back-end</option>
+                <option value="project-management">Project Management</option>
+                <option value="qa-manual">QA Manual</option>
+            </select>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Вкажіть ваші вміння</legend>
+            <label>
+                <input type="checkbox" name="skills[]" value="html"> HTML
+            </label>
+            
+            <label>
+                <input type="checkbox"name="skills[]" value="css">  CSS
+            </label>
+            
+            <label>
+                <input type="checkbox" name="skills[]" value="js"> JavaScript
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Виберіть колір профілю</legend>
+            <input type="color" name="color">
+        </fieldset>
+
+        <fieldset>
+            <legend>Вставте посилання на будь-яку свою соц. мережу</legend>
+            <input type="url" name="social">
+        </fieldset>
+
+        <fieldset>
+            <legend>Оцініть зацікавленість в нашому супер опитуванні та залиште фідбек</legend>
+            <input type="range" name="range" required>
+
+            <textarea name="response" id="response" cols="30" rows="10" placeholder="Залиш свій фідбек.."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ви погоджуєтесь з обробкою ваших персональних данних?</legend>
+            <label>
+                <input tabindex="3" id="validation" name="validation" type="checkbox" required>
+                Я погоджуюсь з обробкою персональних данних
+            </label>
+        </fieldset>
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
