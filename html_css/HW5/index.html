@@ -14,17 +14,21 @@
         <form>
             <input type="text" name="full-name" placeholder="Повне ім'я" required>
             <input type="email" name="email" placeholder="Email" required>
+            
             <input type="password" name="email" placeholder="Пароль" required>
             <input type="password" name="email" placeholder="Пароль ще раз" required>
+            
             <label for="sex" required>
                 Стать
                 <input type="radio" name="animal" value="male" checked> Чоловік
                 <input type="radio" name="animal" value="female" checked> Жінка
             </label>
+
             <label class="age">
                 Вік
                 <input type="number" id="age" name="age" min="1" max="100" required>
             </label>
+
             <label class="select">
                 Виберіть курс
                 <select required>
@@ -39,11 +43,13 @@
                 Повна адреса
                 <textarea placeholder="Країна, регіон, місто/селище, вулиця" name="adress" rows="4" required></textarea>
             </label>
+
             <label class="reg-settings">
                 <input tabindex="3" id="validation" name="validation" type="checkbox" required>
                 Я погоджуюсь з обробкою персональних данних
             </label>
-            <input type="submit" value="Submit" class="submit">
+
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>

@@ -7,6 +7,19 @@ body{
     background-attachment: fixed;
 }
 
+.register{
+    background-color: rgb(255, 166, 0);
+    margin: 0em 15em;
+    padding: 1em;
+    width: 25em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -51,17 +64,6 @@ form label{
     margin-bottom: 1em;
 }
 
-.register{
-    background-color: rgb(255, 166, 0);
-    margin: 0em 15em;
-    padding: 1em;
-    width: 25em;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
-}
 
 
 .select{
@@ -72,7 +74,10 @@ form label{
 }
 
 
-.submit{
+button{
     padding: 1em;
+    background-color: rgb(253, 185, 57) ;
+    border-radius: 5px;
+    border: 0;
 }
 
