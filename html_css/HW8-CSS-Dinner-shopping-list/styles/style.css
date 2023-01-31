@@ -1,0 +1,115 @@
+@import "reset.css";
+
+
+*{
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #3B3F45;
+}
+
+header {
+    background: #4A4F56;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: #FF8984;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 534px;
+    height: 45px;
+    color: #FFFFFF;
+}
+
+.list-item:nth-child(odd) {
+    background-color: #88839E;
+}
+
+.list-item:nth-child(even) {
+    background-color: #7A7593;
+}
+
+.list-item:hover {
+    background: #625E77;
+    border-bottom: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;;
+
+}
+
+.list-item-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+input{
+    margin: 12px;
+    width: 19px;
+    height: 19px;
+}
+
+input:checked + .list-item-text{
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+
+input:active {
+    background-color: #ffff;
+}
+
+.description-text {
+    font-size: 11px;
+}
+
+.description-text::before {
+    content: "\00a0\00a0(";
+}
+
+.description-text::after {
+    content: ")";
+}
+
+.submit-button {
+    width: 534px;
+    height: 45px;
+    background: #4A4F56;
+    border: 0;
+    color: #FF8984;
+    margin-top: 45px;
+}
+
+.submit-button:hover {
+    color: #4A4F56;
+    background: #FF8984;
+}
