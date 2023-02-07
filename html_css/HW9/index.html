@@ -9,18 +9,23 @@
 </head>
 <body>
     <header>
-        <img src="assets/images/logo.svg" alt="Productly logo">
-        <nav>
-            <ul class="primary-nav">
-                <li><a href="#" class="primary-nav__item">Product</a></li>
-                <li><a href="#" class="primary-nav__item">Customers</a></li>
-                <li><a href="#" class="primary-nav__item">Pricing</a></li>
-                <li><a href="#" class="primary-nav__item">Resources</a></li>
-            </ul>
-            <div class="authorization-nav"></div>
-            <button href="#" class="authorization-nav__item authorization-nav__item__bordered">Sign In</button>
-            <button href="#" class="authorization-nav__item ">Sign Up</button>
-        </nav>
+        <div class="wrapper">
+            <img src="assets/images/logo.svg" alt="Productly logo" class="logo">
+    
+            <nav class="header__nav">
+                <ul>
+                    <li class="header__nav__item"><a href="#" class="header__nav__item__link">Product</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__item__link">Customers</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__item__link">Pricing</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__item__link">Resources</a></li>
+                </ul>
+            </nav>
+            
+            <div class="authorization-nav">
+                <button href="#" class="button button__bordered">Sign In</button>
+                <button href="#" class="button">Sign Up</button>
+            </div>
+        </div>
     </header>
 
     <section class="start-section">
@@ -28,8 +33,9 @@
             <div class="start-section__text-container">
                 <h1>The Design Thinking <br> superpowers</h1>
                 <p>Tools, tutorials, design and innovation experts, all in one <br> place! The most intuitive way to imagine your next user <br> experience.</p>
-                <a href="#" class="start-button">Get started</a>
+                <button href="#" class="button">Get started</button>
             </div>
+            
             <div class="start-section__pick-container">
                 <img src="assets/images/hero-img.svg" alt="img with hero">
             </div>
