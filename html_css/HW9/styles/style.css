@@ -1,0 +1,96 @@
+@import "reset.css";
+@import "../assets/fonts/Montserrat.css";
+
+body {
+    font-family: 'Montserrat';
+}
+
+*{
+    transition: all .1s ease-in;
+}
+
+header {
+    height: 80px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.primary-nav {
+    margin-left: 198px;
+    margin-right: 198px;}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: #2F281E;
+    text-decoration: none;
+}
+
+.primary-nav-element:hover {
+    color: #FF9900;
+}
+
+.sign-in {
+    padding: 13px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.sign-up {
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 13px 25px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-section {
+    margin-top: 70px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: #2F281E;
+}
+
+p {
+    font-size: 18px;
+    color: #544837;
+    margin-top: 30px;
+    margin-bottom: 33px;
+}
+
+.start-button {
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 13px 40px;
+}
+
+.start-section-text-container {
+    margin-right: 28px;
+}
+.start-section-pick-container {
+    margin-left: 28px;
+}
