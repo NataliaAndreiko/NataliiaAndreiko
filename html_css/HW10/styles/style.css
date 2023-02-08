@@ -1,0 +1,142 @@
+@import "reset.css";
+@import "../assets/fonts/Lato.css";
+
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Lato';
+    background: #F6F6F6;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #BDBDBD;
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    margin: 0 246px 0 206px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav__item__link {
+    color: #3C3C3C;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav__item__link:hover {
+    color: #18B5DC;
+}
+
+.header__callback {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #3C3C3C;
+}
+
+.header__callback:hover {
+    color: #FFFFFF;
+    background: #18B5DC;
+    border: 1px solid #18B5DC;
+}
+
+main {
+    margin-top: 150px;
+    background: #F6F6F6;
+}
+
+.main__top {
+    width: 570px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__top__title {
+    color: #3C3C3C;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.main__delimiter {
+    background: #DDDBDB;
+    width: 45px;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.main__top__subtitle {
+    text-align: center;
+    color: #3C3C3C;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.main__team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+
+.main__team__item:not(:last-child) {
+    margin-right: 30px;
+
+}
+
+.main__team__item__fullname {
+    font-weight: 700;
+    font-size: 18px;
+    color: #282528;
+    margin-top: 20px;
+}
+
+.main__team__item__specialty {
+    font-weight: 300;
+    font-size: 18px;
+    color: #646464;
+}
+
+footer {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.footer-social-network-list {
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
