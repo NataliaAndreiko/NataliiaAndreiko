@@ -9,14 +9,14 @@ header {
     margin: 0 auto;
 }
 
-ul {
+.header__nav {
    display: flex;
    flex-direction: row; 
    align-content: center;
    justify-content: space-around;
    width: 500px;
    margin: 0 auto;
-    padding: 25px;
+   padding: 25px;
 }
 
 .header-line {
@@ -26,16 +26,16 @@ ul {
     margin: 0 auto;
 }
 
-li {
+.header__nav__item {
     list-style-type: none;
 }
 
-a{
+.header__nav__item__link {
     color: #828282;
     text-decoration: none;
 }
 
-.current{
+.header__nav__item__link:hover {
     color: #070707;
 }
 
