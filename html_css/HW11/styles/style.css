@@ -62,8 +62,12 @@ header {
     color: #2F281E;
 }
 
+header .button__bordered {
+    margin-right: 32px;
+}
 .button__bigger {
     font-family: 'Poppins';
     width: 180px;
     height: 50px;
 }
+
