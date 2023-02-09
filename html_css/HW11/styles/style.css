@@ -32,3 +32,14 @@ header {
 .header__nav__item:not(:last-child) {
     margin-right: 20px;
 }
+
+.header__nav__item__link {
+    color: #2F281E;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header__nav__item__link:hover {
+    color: #FF9900;
+}
