@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "../assets/fonts/Montserrat.css";
+@import "../assets/fonts/Poppins.css";
 
 body {
     font-family: 'Montserrat';
@@ -42,4 +43,27 @@ header {
 
 .header__nav__item__link:hover {
     color: #FF9900;
+}
+
+.button {
+    width: 110px;
+    height: 46px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    color: #FFFFFF;
+}
+
+.button__bordered {
+    border: 1px solid #BCD0E5;
+    background-color: transparent;
+    color: #2F281E;
+}
+
+.button__bigger {
+    font-family: 'Poppins';
+    width: 180px;
+    height: 50px;
 }
