@@ -11,9 +11,24 @@ body {
 
 header {
     height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .wrapper {
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav__item:not(:last-child) {
+    margin-right: 20px;
 }
