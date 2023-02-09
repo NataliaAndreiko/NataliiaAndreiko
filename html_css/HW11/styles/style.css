@@ -65,9 +65,70 @@ header {
 header .button__bordered {
     margin-right: 32px;
 }
+
 .button__bigger {
     font-family: 'Poppins';
     width: 180px;
     height: 50px;
 }
 
+.start-section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+
+.start-section__text-container__title {
+    font-weight: 700;
+    font-size: 44px;
+    color: #2F281E;
+}
+
+
+.start-section__text-container__description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #544837;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.tools-section {
+    padding-bottom: 100px;
+}
+.wrapper__fd-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-section__h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.tools-section__cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px 0 70px;
+    width: 1200px;
+}
+
+.tools-section__cards__item {
+    width: 270px; 
+}
+.tools-section__cards__item__title-text {
+    font-weight: 600;
+    font-size: 22px;
+    color: #2F281E;
+    margin: 30px 0 16px;
+}
+
+.tools-section__cards__item__description-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+}
