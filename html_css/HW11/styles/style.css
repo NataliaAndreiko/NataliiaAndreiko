@@ -132,3 +132,47 @@ header .button__bordered {
     font-size: 16px;
     color: #544837;
 }
+
+footer {
+    height: 350px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
+footer .wrapper {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    height: 209px;
+    justify-content: space-between;
+}
+
+/* .footer__block__label {
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer__block__input {
+    width: 340px;
+    height: 50px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.footer__block a {
+    color: #544837;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer__block__title-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2F281E;
+}
