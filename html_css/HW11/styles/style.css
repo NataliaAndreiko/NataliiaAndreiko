@@ -96,6 +96,10 @@ header .button__bordered {
 
 .tools-section {
     padding-bottom: 100px;
+    background-image: url("../assets/images/bg.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .wrapper__fd-column {
     display: flex;
@@ -152,10 +156,6 @@ footer .wrapper {
     justify-content: space-between;
 }
 
-/* .footer__block__label {
-    display: flex;
-    flex-direction: column;
-} */
 
 .footer__block__input {
     width: 340px;
