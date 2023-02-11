@@ -1,0 +1,43 @@
+@import "reset.css";
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    margin: 120px auto 80px;
+    
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.photography-contaiter {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.photography-contaiter {
+    display: grid;
+    width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+}
+
+.image--bordered {
+    border-radius: 20px;
+}
+
+.architectural_image_placing2 {
+    grid-area: 1 / 2 / span 1 / span 2;
+}
+
+.architectural_image_placing3 {
+    grid-area: 2 / 1 / span 1 / span 2;
+}
+
+
