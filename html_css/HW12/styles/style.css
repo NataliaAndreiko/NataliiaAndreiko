@@ -30,8 +30,12 @@ h1 {
 
 .image--bordered {
     border-radius: 20px;
+    transition: transform 0.25s;
 }
 
+.image--bordered:hover {
+    transform: scale(1.01);
+}
 
 /* FIRST SECTION */
 .architectural-image-placing2 {
