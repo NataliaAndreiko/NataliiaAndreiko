@@ -1,6 +1,8 @@
 @import "reset.css";
+@import "../assets/fonts/DeliosUnicase.css";
 
 h1 {
+    font-family: 'DeliosUnicase';
     font-weight: 400;
     font-size: 36px;
     letter-spacing: 0.05em;
