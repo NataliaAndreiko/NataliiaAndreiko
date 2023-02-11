@@ -56,17 +56,17 @@ header {
     color: #FFFFFF;
 }
 
-.button__bordered {
+.button--bordered {
     border: 1px solid #BCD0E5;
     background-color: transparent;
     color: #2F281E;
 }
 
-header .button__bordered {
+header .button--bordered {
     margin-right: 32px;
 }
 
-.button__bigger {
+.button--bigger {
     font-family: 'Poppins';
     width: 180px;
     height: 50px;
@@ -101,7 +101,7 @@ header .button__bordered {
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
-.wrapper__fd-column {
+.wrapper--fd-column {
     display: flex;
     flex-direction: column;
 }
