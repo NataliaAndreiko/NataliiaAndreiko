@@ -32,12 +32,49 @@ h1 {
     border-radius: 20px;
 }
 
-.architectural_image_placing2 {
+
+/* FIRST SECTION */
+.architectural-image-placing2 {
     grid-area: 1 / 2 / span 1 / span 2;
 }
 
-.architectural_image_placing3 {
+.architectural-image-placing3 {
     grid-area: 2 / 1 / span 1 / span 2;
 }
 
 
+/* SECOND SECTION */
+.still-life-image-placing2 {
+    grid-area: 1 / 2 / span 1 / span 2;
+}
+
+.still-life-image-placing3 {
+    grid-area: 2 / 1 / span 2 / span 2;
+}
+
+.still-life-image-placing5 {
+    grid-area: 3 / 1 / span 1 / span 2;
+}
+
+/* THIRD SECTION */
+
+.portrait-and-fashion-image-placing2 {
+    grid-area: 1 / 2 / span 2 / span 1;
+}
+
+.portrait-and-fashion-image-placing5{
+    grid-area: 2 / 3 / span 2 / span 1;
+}
+
+.portrait-and-fashion-image-placing6{
+    grid-area: 3 / 1 / span 2 / span 1;
+
+}
+
+.portrait-and-fashion-image-placing9{
+    grid-area: 6 / 1 / span 1 / span 2;
+}
+
+.portrait-and-fashion-image-placing10{
+    grid-area: 6 / 3 / span 1 / span 1;
+}
