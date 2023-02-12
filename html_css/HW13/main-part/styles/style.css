@@ -1,1 +1,59 @@
 @import "reset.css";
+@import "../assets/fonts/header-fonts/Tourney.css";
+@import "../assets/fonts/header-fonts/Staatliches.css";
+
+body {
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.actions__lang-changer {
+    font-family: 'Tourney';
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.actions__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.actions__nav li:not(:last-child)::after {
+    content: '/';
+    margin: 0 10px;
+    font-family: 'Staatliches';
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.actions__nav__link {
+    font-family: 'Staatliches';
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+}
