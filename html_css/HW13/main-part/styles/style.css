@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "../assets/fonts/header-fonts/Tourney.css";
 @import "../assets/fonts/header-fonts/Staatliches.css";
+@import "../assets/fonts/main-fonts/Farro.css";
+@import "../assets/fonts/main-fonts/FrancoisOne.css";
+@import "../assets/fonts/main-fonts/PTSans.css";
 
 body {
 
@@ -56,4 +59,33 @@ header .wrapper {
     font-weight: 400;
     font-size: 22px;
     letter-spacing: 0.03em;
+}
+
+article {
+    margin: 70px 0;
+}
+.article-title {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-title h2 {
+    font-family: 'Francois One';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.article-title__chapter-num {
+    font-family: 'Farro';
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.article-text {
+    font-family: 'PTSans';
+    font-weight: 400;
+    font-size: 28px;
 }
