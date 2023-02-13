@@ -2,18 +2,24 @@
 @import "../assets/fonts/Gilroy-Medium.css";
 @import "reset.css";
 
+/*Я не стала виправляти всі помилки та доводити до свого максимуму - у мене не
+дуже багато часу на це, тому виправила лише те, про що ти написав у коменті до домашки */
+
+body {
+    font-family: 'Gilroy-Bold';
+}
 
 header {
     margin: 0 auto;
 }
 
 ul {
-   display: flex;
-   flex-direction: row; 
-   align-content: center;
-   justify-content: space-around;
-   width: 500px;
-   margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
     padding: 25px;
 }
 
@@ -28,13 +34,13 @@ li {
     list-style-type: none;
 }
 
-header a{
+header a {
     color: #828282;
     text-decoration: none;
 }
 
 
-.current{
+.current {
     color: #070707;
 }
 
@@ -45,20 +51,20 @@ header a{
     justify-content: center;
 }
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 50px;
     margin-top: 12px;
 }
 
-.my-photo{
+.my-photo {
     width: 970px;
     height: 387px;
 }
 
 
-.about-me-section{
+.about-me {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -68,12 +74,12 @@ h1{
     padding: 100px;
 }
 
-h2{
+h2 {
     font-size: 34px;
     font-weight: 700;
 }
 
-.about-me-section h2{
+.about-me h2 {
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -82,11 +88,11 @@ p {
     font-size: 18px;
 }
 
-.about-me-section p {
+.about-me p {
     margin-top: 30px;
 }
 
-.skills{
+.skills {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -95,7 +101,7 @@ p {
     padding: 100px;
 }
 
-.skills h2{
+.skills h2 {
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -107,9 +113,10 @@ p {
     justify-content: space-between;
 }
 
-.stars{
+.stars {
     margin-top: 60px;
 }
+
 .program {
     display: flex;
     flex-direction: column;
@@ -119,11 +126,11 @@ p {
     margin: 50px;
 }
 
-.skills-main-text{
+.skills-main-text {
     margin-top: 0;
 }
 
-.disc-text{
+.disc-text {
     font-size: 14px;
     color: #828282;
     margin-top: 25px;
@@ -132,7 +139,7 @@ p {
     text-align: center;
 }
 
-.portfolio-section{
+.portfolio-section {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -146,7 +153,8 @@ p {
     margin-bottom: 40px;
     margin-top: 70px;
 }
-article{
+
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,7 +174,7 @@ article{
 }
 
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -175,12 +183,12 @@ footer{
     padding: 100px;
 }
 
-footer h2{
+footer h2 {
     margin: 0;
 }
 
 
-.contacts-main-text{
+.contacts-main-text {
     width: 280px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -203,7 +211,7 @@ button {
     font-size: 18px;
 }
 
-.social img{
+.social img {
     margin: 0 25px;
 }
 
@@ -213,4 +221,8 @@ button {
     color: #828282;
     width: 200px;
     margin-top: 60px;
+}
+
+.text--medium {
+    font-family: 'Gilroy-Medium';
 }
