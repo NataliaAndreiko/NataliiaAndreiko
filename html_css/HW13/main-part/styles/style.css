@@ -88,4 +88,23 @@ article {
     font-family: 'PTSans';
     font-weight: 400;
     font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+
+.article-text--underlined {
+    border-bottom: 1px solid #000000;
+}
+
+.article-text--italic {
+    font-style: italic;
+}
+
+.article-text__advantages {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+code {
+    background-color: #dcdcdc;
 }
