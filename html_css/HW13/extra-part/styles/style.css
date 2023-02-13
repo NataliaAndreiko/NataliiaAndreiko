@@ -1,9 +1,7 @@
-@import url(../assets/fonts/OpenSans.css);
-@import url(reset.css);
+@import "../assets/fonts/Gilroy-Bold.css";
+@import "../assets/fonts/Gilroy-Medium.css";
+@import "reset.css";
 
-body{
-    font-family: "Open sans";
-}
 
 header {
     margin: 0 auto;
