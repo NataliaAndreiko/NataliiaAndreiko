@@ -28,17 +28,18 @@ li {
     list-style-type: none;
 }
 
-a{
+header a{
     color: #828282;
     text-decoration: none;
 }
+
 
 .current{
     color: #070707;
 }
 
 
-.section {
+.profile {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -151,16 +152,15 @@ article{
     align-items: center;
 }
 
-.ex-img {
+.example-img {
     width: 970px;
     height: 540px;
 }
 
-.ex-disc-text {
+.example-descriptive-text {
     margin-top: 40px;
     margin-bottom: 70px;
     text-align: center;
-    text-decoration-line: underline;
     color: #070707;
     width: 200px;
 }
