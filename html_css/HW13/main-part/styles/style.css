@@ -1,9 +1,5 @@
 @import "reset.css";
-@import "../assets/fonts/header-fonts/Tourney.css";
-@import "../assets/fonts/header-fonts/Staatliches.css";
-@import "../assets/fonts/main-fonts/Farro.css";
-@import "../assets/fonts/main-fonts/FrancoisOne.css";
-@import "../assets/fonts/main-fonts/PTSans.css";
+@import "fonts.css";
 
 body {
 
@@ -29,7 +25,7 @@ header .wrapper {
 }
 
 .actions__lang-changer {
-    font-family: 'Tourney';
+    font-family: 'Tourney', sans-serif;
     letter-spacing: 0.04em;
     color: #000000;
     text-decoration: none;
@@ -46,14 +42,14 @@ header .wrapper {
 .actions__nav li:not(:last-child)::after {
     content: '/';
     margin: 0 10px;
-    font-family: 'Staatliches';
+    font-family: 'Staatliches', sans-serif;
     color: #000000;
     font-weight: 400;
     font-size: 22px;
 }
 
 .actions__nav__link {
-    font-family: 'Staatliches';
+    font-family: 'Staatliches', sans-serif;
     text-decoration: none;
     color: #000000;
     font-weight: 400;
@@ -70,7 +66,7 @@ article {
 }
 
 .article-title h2 {
-    font-family: 'Francois One';
+    font-family: 'Francois One', sans-serif;
     font-weight: 400;
     font-size: 36px;
     letter-spacing: 0.04em;
@@ -78,14 +74,14 @@ article {
 }
 
 .article-title__chapter-num {
-    font-family: 'Farro';
+    font-family: 'Farro', sans-serif;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.04em;
 }
 
 .article-text {
-    font-family: 'PTSans';
+    font-family: 'PTSans', sans-serif;
     font-weight: 400;
     font-size: 28px;
     margin-top: 40px;
