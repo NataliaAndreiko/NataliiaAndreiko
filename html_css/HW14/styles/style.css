@@ -1,0 +1,106 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.actions__lang-changer {
+    font-family: 'Tourney', sans-serif;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.actions__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.actions__nav li:not(:last-child)::after {
+    content: '/';
+    margin: 0 10px;
+    font-family: 'Staatliches', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.actions__nav__link {
+    font-family: 'Staatliches', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+}
+
+article {
+    margin: 70px 0;
+}
+.article-title {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-title h2 {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.article-title__chapter-num {
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.article-text {
+    font-family: 'PTSans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+
+.article-text--underlined {
+    border-bottom: 1px solid #000000;
+}
+
+.article-text--italic {
+    font-style: italic;
+}
+
+.article-text__advantages {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+code {
+    background-color: #dcdcdc;
+}
