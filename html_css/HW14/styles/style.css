@@ -1,13 +1,15 @@
 @import "reset.css";
 @import "fonts.css";
 
-body {
-
-}
-
 .wrapper {
     width: 1200px;
     margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 }
 
 header .wrapper {
@@ -57,6 +59,13 @@ header .wrapper {
     letter-spacing: 0.03em;
 }
 
+section .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
 article {
     margin: 70px 0;
 }
@@ -65,7 +74,8 @@ article {
     align-items: flex-start;
 }
 
-.article-title h2 {
+.article-title h2,
+.sidebar-menu__link {
     font-family: 'Francois One', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -103,4 +113,22 @@ article {
 
 code {
     background-color: #dcdcdc;
+}
+
+aside {
+    position: sticky;
+    top: 150px;
+}
+.sidebar-menu {
+    width: 370px;
+    margin-right: 30px;
+}
+.sidebar-menu__item {
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 70px;
+}
+
+.sidebar-menu__link {
+    text-decoration: none;
+    color: #000000;
 }
