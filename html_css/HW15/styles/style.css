@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "../assets/fonts/Roboto.css";
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -38,7 +39,7 @@ a {
 }
 
 .sign-in__name-input {
-    width: 240px;
+    width: 220px;
 }
 
 label {
@@ -58,6 +59,7 @@ input:not(input[type="radio"]){
     border: 1px solid #E4E4E4;
     border-radius: 6px;
     height: 38px;
+    padding: 0 10px;
 }
 
 input:focus:not(input[type="radio"]) {
