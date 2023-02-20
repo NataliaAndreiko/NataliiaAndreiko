@@ -65,6 +65,11 @@ input:focus:not(input[type="radio"]) {
     border: 1px solid transparent;
 }
 
+.sign-in__country-list:focus {
+    outline: 1px solid #007BFF;
+    border: 1px solid transparent;
+}
+
 .sign-in__input-hint {
     font-weight: 400;
     font-size: 13px;
