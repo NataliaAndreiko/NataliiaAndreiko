@@ -1,0 +1,170 @@
+@import "reset.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-in {
+    width: 500px;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 20px 0 22px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #1C1C1C;
+}
+
+a {
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.sign-in__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in__name-input {
+    width: 240px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 15px;
+    color: #545454;
+    letter-spacing: -0.2px;
+}
+
+.sign-in__label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input:not(input[type="radio"]){
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 38px;
+}
+
+input:focus:not(input[type="radio"]) {
+    outline: 1px solid #007BFF;
+    border: 1px solid transparent;
+}
+
+.sign-in__input-hint {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+.sign-in__gender {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sign-in__country-list {
+    width: 240px;
+    height: 42px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+button {
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 42px;
+    width: 500px;
+    color: #FFFFFF;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sign-in__hint {
+    text-align: center;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #969696;
+}
+
+.delimiter {
+    background: #E4E4E4;
+    height: 1px;
+    width: 500px;
+    margin: 20px 0;
+}
+
+.sign-in__log-in-option {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.sign-in__log-in-option p {
+    color: #545454;
+}
+
+.sign-in__gender__label {
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.sign-in__gender__label input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.sign-in__gender-radio-button {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+}
+
+.sign-in__gender__label input:checked ~ .sign-in__gender-radio-button {
+    background-color: #2196F3;
+}
+
+.sign-in__gender-radio-button__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sign-in__gender__label .sign-in__gender-radio-button__checkmark:after {
+    top: 6px;
+    right: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.sign-in__gender__label input:checked + .sign-in__gender-radio-button .sign-in__gender-radio-button__checkmark:after {
+    display: block;
+}
