@@ -1,2 +1,37 @@
 @import "reset.css";
+@import "fonts.css";
 
+
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #EFEEF3;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #16133D;
+}
