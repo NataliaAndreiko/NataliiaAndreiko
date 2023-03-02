@@ -8,22 +8,33 @@
     <link rel="stylesheet" href="styles/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="wrapper">
-            <img src="assets/images/logo.svg" alt="Productly logo" class="logo">
-    
-            <nav class="header__nav">
-                <ul>
-                    <li class="header__nav-item"><a href="#" class="header__nav-item-link">Product</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-item-link">Customers</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-item-link">Pricing</a></li>
-                    <li class="header__nav-item"><a href="#" class="header__nav-item-link">Resources</a></li>
-                </ul>
-            </nav>
-            
-            <div class="header__authorization-nav">
-                <button class="button button--bordered">Sign In</button>
-                <button class="button">Sign Up</button>
+            <div class="burger">
+                <div class="burger__wrapper ">
+                    <img src="assets/images/logo.svg" alt="Productly logo" class="logo">
+
+                    <input class="burger__toggle" id="burger__toggle" type="checkbox">
+                    <label class="burger__btn " for="burger__toggle">
+                        <span></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="header__actions-container">
+                <nav class="header__nav">
+                    <ul>
+                        <li class="header__nav-item"><a href="#" class="header__nav-item-link">Product</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-item-link">Customers</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-item-link">Pricing</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-item-link">Resources</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header__authorization-nav">
+                    <button class="button button--bordered">Sign In</button>
+                    <button class="button">Sign Up</button>
+                </div>
             </div>
         </div>
     </header>
@@ -134,5 +145,8 @@
             </form>
         </div>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
