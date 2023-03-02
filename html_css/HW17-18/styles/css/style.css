@@ -137,12 +137,12 @@ body {
   padding-top: 70px;
   padding-bottom: 100px;
 }
-.start-section__text-container__title {
+.start-section__text-container-title {
   font-weight: 700;
   font-size: 44px;
   color: #2F281E;
 }
-.start-section__text-container__description {
+.start-section__text-container-description {
   font-weight: 400;
   font-size: 18px;
   color: #544837;
@@ -156,10 +156,10 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .start-section__text-container__title, .start-section__text-container__description {
+  .start-section__text-container-title, .start-section__text-container-description {
     text-align: center;
   }
-  .start-section__text-container__description {
+  .start-section__text-container-description {
     font-size: 20px;
   }
   .start-section__pick-container {
@@ -167,18 +167,18 @@ body {
   }
 }
 @media screen and (max-width: 769px) {
-  .start-section__text-container__title {
+  .start-section__text-container-title {
     font-size: 60px;
   }
-  .start-section__text-container__description {
+  .start-section__text-container-description {
     font-size: 25px;
   }
 }
 @media screen and (max-width: 480px) {
-  .start-section__text-container__title {
+  .start-section__text-container-title {
     font-size: 40px;
   }
-  .start-section__text-container__description {
+  .start-section__text-container-description {
     font-size: 20px;
   }
 }
@@ -191,7 +191,7 @@ body {
   background-size: 100%;
   margin-bottom: 100px;
 }
-.tools-section__title {
+.tools-section-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -363,6 +363,4 @@ body {
     flex-direction: column;
     gap: 15px 0;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
