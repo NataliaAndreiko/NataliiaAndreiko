@@ -1,6 +1,6 @@
 @import "reset.css";
-@import "../assets/fonts/Montserrat.css";
-@import "../assets/fonts/Poppins.css";
+@import "../../assets/fonts/Montserrat.css";
+@import "../../assets/fonts/Poppins.css";
 
 
 //Знаю, в плані дизайну - жах лютий :D
@@ -28,7 +28,7 @@ body {
         flex-direction: column;
     }
 
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 1200px) {
         width: 95%;
         flex-wrap: wrap;
     }
@@ -70,6 +70,18 @@ body {
         gap: 32px;
     }
 
+    @media screen and (max-width:1200px) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        &__nav {
+            display: flex;
+            justify-content: center;
+            &-item-link {
+                font-size: 20px;
+            }
+        }
+    }
+
 
     @media screen and (max-width:1020px) {
 
@@ -87,7 +99,11 @@ body {
     }
 
     @media screen and (max-width:768px) {
-
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px 0;
+        }
         &__nav {
             padding: 30px 0;
             &-item-link {

@@ -1,6 +1,6 @@
 @import "reset.css";
-@import "../assets/fonts/Montserrat.css";
-@import "../assets/fonts/Poppins.css";
+@import "../../assets/fonts/Montserrat.css";
+@import "../../assets/fonts/Poppins.css";
 body {
   font-family: "Montserrat";
 }
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
   .wrapper {
     width: 95%;
     flex-wrap: wrap;
@@ -54,6 +54,19 @@ body {
   display: flex;
   gap: 32px;
 }
+@media screen and (max-width: 1200px) {
+  .header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .header__nav-item-link {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 1020px) {
   .header__nav {
     display: flex;
@@ -67,6 +80,11 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .header .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+  }
   .header__nav {
     padding: 30px 0;
   }
