@@ -1,11 +1,21 @@
-@import "../reset.css";
-
+@import "../../reset.css";
+@import "../../assets/fonts/Lato.css";
+@import "../../assets/fonts/RedHatDisplay.css";
 
 // @mixin font-settings($fontSize, $sontWight, $letterSpacing) {
 //     font-weight: $fontSize;
 //     font-size: $sontWight;
 //     letter-spacing: $letterSpacing;
 // }
+
+* {
+    transition: all 0.1s ease-in;
+}
+
+h2, h3 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 .wrapper{
     width: 95%;
     margin: 0 auto;
@@ -13,24 +23,26 @@
     flex-direction: column;
 }
 
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
 .header{
     height: 60px;
     display: flex;
     align-items: center;
 
     h1 {
-        font-family: 'Lato';
-        
+        font-family: 'Lato', sans-serif;
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.5em;
     }
-}
-
-h2 {
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0.05em;
 }
 
 .first-scren {
@@ -134,6 +146,13 @@ h2 {
                 height: 24px;
                 width: 24px;
                 fill: #565656;
+
+            }
+            &:hover{
+                background-color: #565656;
+                &-icon {
+                    fill: white;
+                }
             }
         }
     }

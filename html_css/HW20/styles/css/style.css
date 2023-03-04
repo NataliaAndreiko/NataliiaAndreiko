@@ -1,9 +1,29 @@
-@import "../reset.css";
+@import "../../reset.css";
+@import "../../assets/fonts/Lato.css";
+@import "../../assets/fonts/RedHatDisplay.css";
+* {
+  transition: all 0.1s ease-in;
+}
+
+h2, h3 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
 .wrapper {
   width: 95%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -12,16 +32,10 @@
   align-items: center;
 }
 .header h1 {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.5em;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 30px;
-  letter-spacing: 0.05em;
 }
 
 .first-scren .wrapper {
@@ -113,6 +127,12 @@ h2 {
   height: 24px;
   width: 24px;
   fill: #565656;
+}
+.footer__social-item:hover {
+  background-color: #565656;
+}
+.footer__social-item:hover-icon {
+  fill: white;
 }
 .footer__copyright {
   font-weight: 400;
