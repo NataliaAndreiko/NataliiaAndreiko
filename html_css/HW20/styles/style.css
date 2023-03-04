@@ -171,7 +171,7 @@ p {
   background-color: #565656;
 }
 .footer__social-item:hover .footer__social-item-icon {
-  fill: white;
+  fill: #FFF;
 }
 .footer__copyright {
   font-weight: 400;
@@ -211,4 +211,6 @@ p {
   .footer h2 {
     font-size: 48px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

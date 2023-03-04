@@ -201,8 +201,8 @@ p{
             }
             &:hover{
                 background-color: #565656;
-                &-icon {
-                    fill: white;
+                .footer__social-item-icon {
+                    fill: #FFF;
                 }
             }
         }
