@@ -1,1 +1,116 @@
-/*# sourceMappingURL=style.css.map */
+@import "../reset.css";
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+}
+
+.first-scren .wrapper {
+  gap: 40px;
+}
+.first-scren h2 {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+}
+.first-scren__content {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.first-scren__content__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.first-scren__content__text-container-title {
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.1em;
+}
+.first-scren__content__text-container-description {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.substance-section {
+  margin: 70px 0;
+}
+.substance-section .wrapper {
+  gap: 40px;
+}
+.substance-section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer__contacts-link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__contacts-link a {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+.footer__social-item {
+  border: 1px solid #565656;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-content: center;
+}
+.footer__social-item-icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+  fill: #565656;
+}
+.footer__copyright {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=style.css.map */
